@@ -3,16 +3,15 @@
     font-size: 16px;
 }
 
-body{
-    background-color:rgb(205, 151, 255) ;
-
+body {
+    background-color: purple; /* Aqui você define a cor roxa */
+    margin: 0; /* Remove as margens padrão do body */
 }
 
-main{
+main {
     background-color: white;
     width: 500px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
-
 }
