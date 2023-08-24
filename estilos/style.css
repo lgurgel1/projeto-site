@@ -1,17 +1,22 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background-color: purple; /* Aqui você define a cor roxa */
-    margin: 0; /* Remove as margens padrão do body */
+    background-color: rgb(205, 151, 255); /* Fundo roxo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Garante que o corpo ocupe pelo menos a altura da janela de visualização */
 }
 
-main {
-    background-color: white;
+.content {
+    background-color: white; /* Fundo branco */
     width: 500px;
-    margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
 }
